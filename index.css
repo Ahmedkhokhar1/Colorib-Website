@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a header design */
+.header{
+    background: royalblue;
+    height: 65px;
+}
+
+.header p{
+    color: white;
+    font-size: 19px;
+    padding-left: 15%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header a{
+    color: lightcyan;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+/* Create a header text design */
+.header-text{
+    display: flex;
+    background-color: honeydew;
+    height: 100px;
+}
+
+.header-text .colorib h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 100%;
+    padding-top: 8px;
+}
+
+.header-text .colorib span{
+    color: green;
+    font-size: 60px;
+}
+
+.header-text .navbar{
+    padding-left: 17%;
+    margin-top: 40px;
+    
+}
+.header-text .navbar a{
+    margin: 0px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+.header-text .navbar a:hover{
+    color: royalblue;
+}
+
+
+
+/* Website design ko create ker rehe hain */
+.website-design{
+    background: lightgrey;
+    height:100px;
+    display: flex;
+}
+
+.website-design .heading{
+    font-size: 30px;
+    padding-top: 27px;
+    padding-left: 14%;
+}
+
+
+.website-design .Anchor{
+    color: brown;
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 20%;
+}
+
+.website-design a{
+    text-decoration: none;
+    color: grey;
+}
+
+.website-design a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* create a image in website */
+.image{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.image img{
+    width: 1050px;
+    height: 560px;
+}
+
+
+/* Create a blue navbar */
+.blue-bar{
+    background-color: royalblue;
+    height: 50px;
+    width: 1050px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.blue-bar p{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.blue-bar a{
+    color: white;
+}
+
+.blue-bar a:hover{
+    text-decoration: none;
+}
+
+
+/* create a main parts in website */
+
+.text-part{
+    width: 700px;
+    padding-left: 150px;
+}
+
+
+.text-part .para{
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-part .para1{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.image-heading{
+    display: flex;
+}
+
+
+.image-heading .image1 img{
+    width: 350px;
+}
+
+.heading-para{
+    padding-left: 30px;
+}
+
+.heading-para h1{
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.heading-para .para2{
+    line-height: 25px;
+}
+
+.para3{
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+
+
+/* Create a gym website */
+.best-gym{
+    margin-left: 150px;
+    width: 800px;
+}
+
+.best-gym .head{
+    margin-bottom: 28px;
+}
+
+.best-gym .head2{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+
+.best-gym .best-image img{
+    margin-top: 30px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 15px grey;
+    margin-bottom: 30px;
+}
+
+.best-gym .paragraph{
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.best-gym .paragraph2{
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.best-gym .paragraph3{
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.best-gym .paragraph3 a{
+    color: blue;
+    text-decoration: none;
+}
+
+.best-gym .gym-btn{
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.best-gym .btn1{
+    background: green;
+    padding: 14px 45px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.best-gym .btn1:hover{
+    background-color: darkgreen;
+}
+
+.best-gym .btn2{
+    background: red;
+    padding: 14px 45px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.best-gym .btn2:hover{
+    background: darkred;
+}
+
+
+
+/* Create a footer part in website */
+.helpful{
+    background-color: lightgray;
+    width: 800px;
+    margin-left: 140px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.helpful .par{
+    margin-right: 20px;
+}
+
+
+.helpful .button button{
+    padding: 6px 9px;
+    margin-top: -40px;
+    margin-left: 10px;
+    background: white;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    color: royalblue;
+    transition: 0.3s;
+}
+
+
+.helpful .button button:hover{
+    box-shadow: 2px 2px 10px grey;
+}
+
+
+.share{
+    padding-left: 140px;
+}
+.share h2{
+    font-weight: 500;
+}
+
+hr{
+    background: lightgray;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 140px;
+}
+
+
+
+/* Create A four button in this website */
+.button1{
+    margin-bottom: 50px;
+}
+.btn4{
+    padding-left: 140px;
+    margin-bottom: 40px;
+}
+
+.btn4 button{
+    padding: 10px 23px;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn4 .blue{
+    background: royalblue;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn4 .lightblue{
+    background: #536DC8;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn4 .red{
+    background: #BF0B26;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn4 .darkblue{
+    background: #1A3696;
+    border-radius: 3px;
+    border: none;
+}
+
+
+/* Create a Aigars sikalns website   */
+.share-this-inside{
+    background: #ECEEF4;
+    display: flex;
+    height: 240px;
+    margin-left: 140px;
+    width: 800px;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+}
+
+.images img{
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 65px;
+    width: 70px;
+    
+}
+.header-para{
+    width: 600px;
+}
+
+.header-para h1{
+    padding-bottom: 20px;
+}
+.header-para p{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+
+/* Create a Related Post in This website */
+.Related-post{
+    margin-left: 140px;
+}
+.Related-post h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+/* Create a six images container in this website  */
+.part1{
+    padding-left: 140px;
+}
+
+.part1 .image1 img{
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 10px grey;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+
+/* Create A Post has comment in this website */
+.post-has{
+    margin-left: 140px;
+}
+.post-has h2{
+    font-weight: 500;
+}
+
+.leave-reply{
+    padding-top: 20px;
+    padding-left: 140px;
+    
+}
+
+.leave-reply h2{
+    padding-bottom: 15px;
+}
+
+.leave-reply p{
+    color: grey;
+    font-size: 18px;
+}
+
+
+/* Create a last heading in this website */
+.label-input{
+    padding-top: 30px;
+    padding-left: 140px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.label-input label{
+    font-size: 22px;
+}
+
+.label-input label span{
+    color: red;
+    font-size: 18px;
+}
+.label-input input{
+    width: 400px;
+    outline: px solid grey;
+    height: 30px;
+}
+
+.label-input .first{
+    margin-right: 20px;
+}
+
+.third{
+    padding-left: 140px;
+}
+
+
+.third label{
+    font-size: 22px;
+}
+
+.third input{
+    width: 830px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.fourth label{
+    padding-left: 140px;
+    font-size: 22px;
+}
+.fourth span{
+    color: red;
+}
+
+.fourth .fou{
+    margin-left: 140px;
+}
+
+.btnn{
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+
+.btnn button{
+    background: #1A3696;
+    margin-bottom: 60px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.contain{
+    padding-left: 140px;
+    display: flex;
+}
+
+.heya{
+    color: grey;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.head1{
+    margin-right: 180px;
+}
+
+
+/* Create a contain1 in this website */
+.contain1{
+    margin-left: 140px;
+    font-size: 19px;
+    background-color: #ECEEF4;
+    margin-left: 0px;
+    padding-left: 140px;
+    height: 120px;
+    display: flex;
+}
+
+.contain1 .header1{   
+    font-size: 23px;
+    padding-top: 50px;
+    margin-right: 230px;
+}
+
+.contain1 .buton{
+    padding-top: 31px;
+    
+}
+
+.contain1 .buton button{
+    background-color: #1A3696;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+.footer{
+    background-color: #2C2E32;
+    display: flex;
+    height: 400px;
+}
+
+.footer1{
+    padding-left: 140px;
+    padding-right: 130px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.footer h2 span{
+    color: green;
+}
+
+.footer .footer11{
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 19px;
+}
+
+.footer .footer111{
+    padding-bottom: 30px;
+}
+
+.footer2{
+    padding-top: 40px;
+    width: 160px;   
+}
+
+.footer2 a{
+    color: lightgray;
+    font-size: 18px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.footer2 a:hover{
+    color: white;
+}
+
+.last-footer{
+    background: #18191B;
+    color: #A5A9B1;
+    height: 60px;
+}
+
+.last-footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.image-part{
+    width: 200px;
+    display: flex;
+}

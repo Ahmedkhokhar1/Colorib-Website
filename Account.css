@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EBE2E4;
+}
+
+.navbar{
+    background-color: #2B2D30;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 25px; */
+    box-sizing: border-box;
+}
+.navbar .nav1{
+    padding-left: 40px;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+.navbar .nav1 a:hover{
+    text-decoration: none;
+}
+
+.navbar .nav2{
+    margin-right: 12%;
+    font-size: 12px;
+    padding-top: 31px;
+}
+
+.navbar .nav a{
+    color: #D9DEE6;
+    padding-left: 40px;
+}
+
+.navbar .nav a:hover{
+    color: #7C1622;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+
+/* Create a container in this website */
+.container{
+    margin-top: 80px;
+    margin-left: 100px;
+    line-height: 60px;
+}
+
+.container .widh p{
+    font-size: 20px;
+    color: grey;
+}
+
+
+.container .widh .para{
+    margin-top: -30px;
+    color: black;
+}
+
+.input-label label{
+    font-size: 23px;
+    display: block;
+}
+
+.input-label{
+    font-weight: bold;
+    color: grey;
+}
+
+.input-label .label{
+    margin-bottom: -20px;
+}
+
+
+.input-label .lab1 label{
+    padding-top: 20px;
+}
+
+.input-label input{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.input-label .labe2{
+    margin-bottom: -20px;
+}
+
+.input-label .btn button{
+    border-radius: 7px;
+    background: purple;
+    padding: 20px 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+.input-label .btn button:hover{
+    transform: scale(1.1);
+}
+.lost a{
+    font-size: 18px;
+    color: #69595C;
+}
+
+.download{
+    display: flex;
+}
+
+.download .down{
+    color: black;
+    margin-right: 28%;
+}
+
+.download .login{
+    color: black;
+}
+
+.download .login .header{
+    margin-bottom: -20px;
+}
+
+.download .login .header1{
+    margin-bottom: -20px;
+}
+
+.download .login a{
+    font-size: 13px;
+}
+
+.footer{
+    background: #332E2F;
+    height: 52px;
+}
+
+.footer p{
+    text-align: right;
+    padding-top: 16px;
+    font-size: 14px;
+    color: #BDB1B4;
+    padding-right: 90px;
+}
+
+
+.footer a{
+    color: #BDB1B4;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+
+
+
+.download .login .header1{
+    color: grey;
+
+}

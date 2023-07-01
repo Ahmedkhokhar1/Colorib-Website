@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a header design */
+.header{
+    background: royalblue;
+    height: 65px;
+}
+
+.header p{
+    color: white;
+    font-size: 19px;
+    padding-left: 15%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header a{
+    color: lightcyan;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Create a header text design */
+.header-text{
+    display: flex;
+    background-color: honeydew;
+    height: 100px;
+}
+
+.header-text .colorib h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 100%;
+    padding-top: 8px;
+}
+
+.header-text .colorib span{
+    color: green;
+    font-size: 60px;
+}
+
+.header-text .navbar{
+    padding-left: 17%;
+    margin-top: 40px;
+    
+}
+.header-text .navbar a{
+    margin: 0px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+.header-text .navbar a:hover{
+    color: royalblue;
+}
+
+
+
+/* Website design ko create ker rehe hain */
+.website-design{
+    background: lightgrey;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-design .heading{
+    font-size: 30px;
+    padding-top: 31px;
+    padding-left: 70px;
+}
+
+
+.website-design .Anchor{
+    color: brown;
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 20%;
+    margin-right: 180px;
+}
+
+
+.website-design a{
+    text-decoration: none;
+    color: grey;
+}
+
+.website-design a:hover{
+    text-decoration: underline;
+}
+
+
+ /* Create A green content in this website */
+ .green{
+    margin: 40px 58px;
+    background: #43B360;
+    width: 1230px;
+    height: 700px;
+    color: white;
+}
+
+.green h1{
+   font-size: 50px;
+   padding-top: 330px;
+   padding-left: 480px;
+}
+
+
+
+/* Create a text in this website */
+.text{
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.text h1{
+    margin-bottom: 30px;
+}
+
+.text h3{
+    margin-bottom: 30px;
+}
+
+.text .underorderlist{
+    font-size: 19px;
+    padding-left: 30px; 
+}
+
+
+.text .underorderlist ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.text .underorderlist ul li{
+    padding-bottom: 15px;
+}
+
+
+.text .underorderlist ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* create a contain1 website */
+.contain1{
+    margin-left: 140px;
+    font-size: 19px;
+    background-color: #ECEEF4;
+    margin-left: 0px;
+    padding-left: 140px;
+    height: 120px;
+    display: flex;
+}
+
+.contain1 .header1{   
+    font-size: 23px;
+    padding-top: 50px;
+    margin-right: 230px;
+}
+
+.contain1 .buton{
+    padding-top: 31px;
+    
+}
+
+.contain1 .buton button{
+    background-color: #1A3696;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+.footer{
+    background-color: #2C2E32;
+    display: flex;
+    height: 400px;
+}
+
+.footer1{
+    padding-left: 140px;
+    padding-right: 130px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.footer h2 span{
+    color: green;
+}
+
+.footer .footer11{
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 19px;
+}
+
+.footer .footer111{
+    padding-bottom: 30px;
+}
+
+.footer2{
+    padding-top: 40px;
+    width: 160px;   
+}
+
+.footer2 a{
+    color: lightgray;
+    font-size: 18px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.footer2 a:hover{
+    color: white;
+}
+
+.last-footer{
+    background: #18191B;
+    color: #A5A9B1;
+    height: 60px;
+}
+
+.last-footer p{
+    text-align: center;
+    padding-top: 20px;
+}

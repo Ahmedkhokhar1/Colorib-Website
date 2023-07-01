@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a header design */
+.header{
+    background: royalblue;
+    height: 65px;
+}
+
+.header p{
+    color: white;
+    font-size: 19px;
+    padding-left: 15%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header a{
+    color: lightcyan;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Create a header text design */
+.header-text{
+    display: flex;
+    background-color: honeydew;
+    height: 100px;
+}
+
+.header-text .colorib h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 100%;
+    padding-top: 8px;
+}
+
+.header-text .colorib span{
+    color: green;
+    font-size: 60px;
+}
+
+.header-text .navbar{
+    padding-left: 17%;
+    margin-top: 40px;
+    
+}
+.header-text .navbar a{
+    margin: 0px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+.header-text .navbar a:hover{
+    color: royalblue;
+}
+
+
+
+/* Create a theme collection in this website */
+.Theme-collection{
+    padding-left: 0px;
+    background: #D6DEE3;
+}
+
+.Theme-collection h2{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 140px;
+    padding-top: 40px;
+} 
+
+.Theme-collection p{
+    width: 1000px;
+    line-height: 27px;
+    color: #5E6366;
+    font-size: 20px;
+    padding-left: 140px;
+}
+
+.Theme-collection .para{
+    margin-top: 20px;
+}
+
+.Theme-collection .para a{
+    text-decoration: none;
+    color: royalblue;
+}
+.Theme-collection .para1{
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.Theme-collection .para1 a{
+    color: #5E6366;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Theme-collection .para1 a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Add a image in this website */
+.border-image{
+    width: 330px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 140px;
+    margin-right: -120px;
+}
+
+.border-image1{
+    border: 1px solid #D6DEE3;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.border-image1 h2{
+    padding-top: 10px;
+    font-size: 18px;
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+.border-image1 p{
+    width: 282px;
+}
+.border-image1 button{
+    margin-top: 10px;
+    padding: 12px 19px;
+    border: none;
+    color: white;
+    background: royalblue;
+    cursor: pointer;
+}
+
+.border-image1 button:hover{
+    background: #2A4ECA;
+}
+
+
+/* Create a contain1 in this website */
+.contain1{
+    margin-left: 140px;
+    clear: both;
+    font-size: 19px;
+    background-color: #ECEEF4;
+    margin-left: 0px;
+    padding-left: 140px;
+    height: 120px;
+    display: flex;
+}
+
+.contain1 .header1{   
+    font-size: 23px;
+    padding-top: 50px;
+    margin-right: 230px;
+}
+
+.contain1 .buton{
+    padding-top: 31px;
+    
+}
+
+.contain1 .buton button{
+    background-color: #1A3696;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+.footer{
+    background-color: #2C2E32;
+    display: flex;
+    height: 400px;
+}
+
+.footer1{
+    padding-left: 140px;
+    padding-right: 130px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.footer h2 span{
+    color: green;
+}
+
+.footer .footer11{
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 19px;
+}
+
+.footer .footer111{
+    padding-bottom: 30px;
+}
+
+.footer2{
+    padding-top: 40px;
+    width: 160px;   
+}
+
+.footer2 a{
+    color: lightgray;
+    font-size: 18px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.footer2 a:hover{
+    color: white;
+}
+
+.last-footer{
+    background: #18191B;
+    color: #A5A9B1;
+    height: 60px;
+}
+
+.last-footer p{
+    text-align: center;
+    padding-top: 20px;
+}

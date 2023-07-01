@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a header design */
+.header{
+    background: royalblue;
+    height: 65px;
+}
+
+.header p{
+    color: white;
+    font-size: 19px;
+    padding-left: 15%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header a{
+    color: lightcyan;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+/* Create a header text design */
+.header-text{
+    display: flex;
+    background-color: honeydew;
+    height: 100px;
+}
+
+.header-text .colorib h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 100%;
+    padding-top: 8px;
+}
+
+.header-text .colorib span{
+    color: green;
+    font-size: 60px;
+}
+
+.header-text .navbar{
+    padding-left: 17%;
+    margin-top: 40px;
+    
+}
+.header-text .navbar a{
+    margin: 0px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+}
+
+.header-text .navbar a:hover{
+    color: royalblue;
+}
+
+
+
+/* Website design ko create ker rehe hain */
+.website-design{
+    background: lightgrey;
+    height:100px;
+    display: flex;
+}
+
+.website-design .heading{
+    font-size: 24px;
+    padding-top: 38px;
+    padding-left: 14%;
+}
+
+
+.website-design .Anchor{
+    color: brown;
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 20%;
+}
+
+.website-design a{
+    text-decoration: none;
+    color: grey;
+}
+
+.website-design a:hover{
+    text-decoration: underline;
+}
+
+
+/* create a image in this website */
+.cont-image{
+    margin-top: 40px;
+    margin-left: 210px;    
+}
+
+.cont-image img{
+    margin: auto;
+    width: 900px;
+}
+
+.cont-image p{
+    background-color: royalblue;
+    width: 900px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.cont-image a{
+    color: white;
+}
+.cont-image a:hover{
+    text-decoration: none;
+}
+
+.contain-text{
+    margin-left: 15%;
+}
+
+.contain-text ul li{
+    color: #2E312E;
+}
+.contain-text ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+.heading .yoyo{
+    padding-top: 30px;
+}
+.heading h2{
+    margin-top: 20px;
+}
+
+.contain-text p{
+    color: #2E312E;
+    padding-bottom: 18px;
+    width: 700px;
+}
+
+.contain-text .heading img{
+    width: 700px;
+    height: 500px;
+}
+
+
+.heading .down{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.heading .green{
+    background-color: #69B069;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.heading .green:hover{
+    text-decoration: underline;
+    background-color: #408F4D;
+}
+.heading .lightblue{
+    background-color: #60E7E4;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.heading .lightblue:hover{
+    text-decoration: underline;
+    background-color: #267AA0;
+}
+.heading .lightred:hover{
+    text-decoration: underline;
+    background-color: #CF471C;
+}
+.heading .lightred{
+    background-color: #F36043;
+    transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/* Create a contain1 in this website */
+.contain1{
+    margin-left: 140px;
+    font-size: 19px;
+    background-color: #ECEEF4;
+    margin-left: 0px;
+    padding-left: 140px;
+    height: 120px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.contain1 .header1{   
+    font-size: 23px;
+    padding-top: 50px;
+    margin-right: 230px;
+}
+
+.contain1 .buton{
+    padding-top: 31px;
+    
+}
+
+.contain1 .buton button{
+    background-color: #1A3696;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+.footer{
+    background-color: #2C2E32;
+    display: flex;
+    height: 400px;
+}
+
+.footer1{
+    padding-left: 140px;
+    padding-right: 130px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.footer h2 span{
+    color: green;
+}
+
+.footer .footer11{
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 19px;
+}
+
+.footer .footer111{
+    padding-bottom: 30px;
+}
+
+.footer2{
+    padding-top: 40px;
+    width: 160px;   
+}
+
+.footer2 a{
+    color: lightgray;
+    font-size: 18px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.footer2 a:hover{
+    color: white;
+}
+
+.last-footer{
+    background: #18191B;
+    color: #A5A9B1;
+    height: 60px;
+}
+
+.last-footer p{
+    text-align: center;
+    padding-top: 20px;
+}
